@@ -1,25 +1,25 @@
-import React, { memo } from "react";
-import { View } from "react-native";
+import React, {memo} from 'react';
+import {View} from 'react-native';
 import {
   useTheme,
   useStyleSheet,
   Icon,
   StyleService,
-} from "@ui-kitten/components";
-import { MainBottomTabStackParamList } from "./types";
-import Text from "components/Text";
-import { globalStyle } from "styles/globalStyle";
-import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import MoreSrc from "src/more/MoreSrc";
-import useLayout from "hooks/useLayout";
-import FindSrc from "src/find/FindSrc";
-import ModalRequest from "components/ModalRequest";
-import useModal from "hooks/useModal";
-import { Images } from "assets/images";
-import MessagesSrc from "src/messages/MessagesSrc";
-import RequestsBottomNavigator from "./RequestsBottomNavigator";
-import CalendarNavigator from "./CalendarNavigator";
-import MoreNavigator from "./MoreNavigator";
+} from '@ui-kitten/components';
+import {MainBottomTabStackParamList} from './types';
+import Text from 'components/Text';
+import {globalStyle} from 'styles/globalStyle';
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import MoreSrc from 'src/more/MoreSrc';
+import useLayout from 'hooks/useLayout';
+import FindSrc from 'src/find/FindSrc';
+import ModalRequest from 'components/ModalRequest';
+import useModal from 'hooks/useModal';
+import {Images} from 'assets/images';
+import MessagesSrc from 'src/messages/MessagesSrc';
+import RequestsBottomNavigator from './RequestsBottomNavigator';
+import CalendarNavigator from './CalendarNavigator';
+import MoreNavigator from './MoreNavigator';
 
 interface ButtonTabProps {
   focused: boolean;
@@ -32,21 +32,21 @@ const BottomTab = createBottomTabNavigator<MainBottomTabStackParamList>();
 
 const MainBottomTab = memo(() => {
   const theme = useTheme();
-  const { height, bottom } = useLayout();
+  const {height, bottom} = useLayout();
   const styles = useStyleSheet(themedStyles);
-  const { modalRef, show, hide } = useModal();
+  const {modalRef, show, hide} = useModal();
 
   const ButtonTab = React.useCallback(
-    ({ focused, icon, numberNotification }: ButtonTabProps) => {
+    ({focused, icon, numberNotification}: ButtonTabProps) => {
       React.useEffect(() => {
-        if (focused && icon == "bookmark") {
-          setTimeout(() => {
-            modalRef.current?.show();
-          }, 1200);
-          clearTimeout();
-        } else {
-          modalRef.current?.hide();
-        }
+        // if (focused && icon == "bookmark") {
+        //   setTimeout(() => {
+        //     modalRef.current?.show();
+        //   }, 1200);
+        //   clearTimeout();
+        // } else {
+        //   modalRef.current?.hide();
+        // }
       }, [focused]);
       return (
         <View
@@ -54,8 +54,7 @@ const MainBottomTab = memo(() => {
             width: 40,
             height: 40,
             ...globalStyle.center,
-          }}
-        >
+          }}>
           {numberNotification ? (
             focused ? null : (
               <View style={styles.notification}>
@@ -72,14 +71,14 @@ const MainBottomTab = memo(() => {
               width: 24,
               height: 24,
               tintColor: focused
-                ? theme["button-basic-color"]
-                : theme["text-placeholder-color"],
+                ? theme['button-basic-color']
+                : theme['text-placeholder-color'],
             }}
           />
         </View>
       );
     },
-    [modalRef]
+    [modalRef],
   );
 
   return (
@@ -94,13 +93,12 @@ const MainBottomTab = memo(() => {
               height: (54 + bottom) * (height / 812),
             },
           ],
-        }}
-      >
+        }}>
         <BottomTab.Screen
           name="Find"
           component={FindSrc}
           options={{
-            tabBarIcon: ({ focused }) => (
+            tabBarIcon: ({focused}) => (
               <ButtonTab
                 focused={focused}
                 icon="search"
@@ -113,7 +111,7 @@ const MainBottomTab = memo(() => {
           name="Messages"
           component={MessagesSrc}
           options={{
-            tabBarIcon: ({ focused }) => (
+            tabBarIcon: ({focused}) => (
               <ButtonTab
                 focused={focused}
                 icon="comment"
@@ -126,7 +124,7 @@ const MainBottomTab = memo(() => {
           name="Requests"
           component={RequestsBottomNavigator}
           options={{
-            tabBarIcon: ({ focused }) => (
+            tabBarIcon: ({focused}) => (
               <ButtonTab
                 focused={focused}
                 icon="bookmark"
@@ -139,7 +137,7 @@ const MainBottomTab = memo(() => {
           name="Calendar"
           component={CalendarNavigator}
           options={{
-            tabBarIcon: ({ focused }) => (
+            tabBarIcon: ({focused}) => (
               <ButtonTab
                 focused={focused}
                 icon="calendar"
@@ -152,7 +150,7 @@ const MainBottomTab = memo(() => {
           name="More"
           component={MoreNavigator}
           options={{
-            tabBarIcon: ({ focused }) => (
+            tabBarIcon: ({focused}) => (
               <ButtonTab focused={focused} icon="more" numberNotification={3} />
             ),
           }}
@@ -160,7 +158,7 @@ const MainBottomTab = memo(() => {
       </BottomTab.Navigator>
       {/* Modal request job notification*/}
       <ModalRequest
-        name={"Marian Ramsey"}
+        name={'Marian Ramsey'}
         ref={modalRef}
         avatar={Images.avatar3}
         isOnl={true}
@@ -182,7 +180,7 @@ const themedStyles = StyleService.create({
     paddingTop: 12,
   },
   styleLabel: {
-    fontFamily: "GothamPro-Medium",
+    fontFamily: 'GothamPro-Medium',
     fontSize: 11,
     lineHeight: 24,
   },
@@ -192,9 +190,9 @@ const themedStyles = StyleService.create({
     width: 40,
   },
   notification: {
-    position: "absolute",
+    position: 'absolute',
     borderRadius: 99,
-    backgroundColor: "button-basic-color",
+    backgroundColor: 'button-basic-color',
     width: 16,
     height: 16,
     zIndex: 10,

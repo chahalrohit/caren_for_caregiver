@@ -7,34 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* CarenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CarenTests.m */; };
-		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		00E356F31AD99517003FC87E /* carenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* carenTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-caren.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-caren.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		49A406392020C671FCF7D7C8 /* libPods-Caren-CarenTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0498455E734D3747245778D5 /* libPods-Caren-CarenTests.a */; };
+		2AFE77C0AAF640FCBB8C4215 /* GothamMediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 949D3262297F4F0E96F4E58D /* GothamMediumItalic.ttf */; };
+		2EFEB51E902F4297BA642B85 /* Gotham-UltraItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F5F5185BC1C3459A90164E55 /* Gotham-UltraItalic.otf */; };
+		44F7DA3ABBC0433CA8A7754B /* Gotham-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3A8328BD6F8341EF9CCB29AB /* Gotham-BookItalic.otf */; };
+		4D0CDA76EAC942CABAFC47A5 /* GothamLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD9FA9895E3A4AF6A197E469 /* GothamLightItalic.ttf */; };
+		542CC84BD6444811BAFD4C91 /* Gotham-Pro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F635E827F7EC43F4BDAF3F63 /* Gotham-Pro-Medium.ttf */; };
+		57C36F49945D47D780DB4A62 /* GothamLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0978C2D07214BC4A0F154C5 /* GothamLight.ttf */; };
+		719EEB89424D440C9EF0BBD3 /* GothamBookItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D65581D583AE48E090A29B77 /* GothamBookItalic.ttf */; };
+		7699B88040F8A987B510C191 /* libPods-caren-carenTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-caren-carenTests.a */; };
+		783493A5D2E94858A036F88A /* GothamMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C8C0B5B8C344FACBB6557C2 /* GothamMedium.ttf */; };
+		78E69DE31DBD41D093FEADC0 /* GothamMedium_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C55AD864B7A7426B99B87732 /* GothamMedium_1.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		A4F70040386AD0E156AF6FA4 /* libPods-Caren.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2361E9640B0CB960FC4299 /* libPods-Caren.a */; };
-		499D221A07A44A57B33A1486 /* Gotham-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 26A1535F07C64240B0C5A0C8 /* Gotham-Black.otf */; };
-		04409CE4ABD447D9AD9C4F0E /* Gotham-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9F4E54F61D944CD7BBB2D67F /* Gotham-Bold.otf */; };
-		74C24AA91A3A429A9903E07A /* Gotham-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4163EF6EE23045C1B6FA17CB /* Gotham-BookItalic.otf */; };
-		61EBBFE1892441B4A3187B9D /* Gotham-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5048B71A53764F8CA9625A16 /* Gotham-Light.otf */; };
-		46658EEB0A4444729F41AD54 /* Gotham-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0E69801FF9CC4720BE45591C /* Gotham-Thin.otf */; };
-		1FF6F92B081A49A3B37E07F8 /* Gotham-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B98492364EF34A8BA32236E1 /* Gotham-ThinItalic.otf */; };
-		4239827B4D9C40479F8F37B3 /* Gotham-UltraItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 54E64C0EA75F4CFFB3314D99 /* Gotham-UltraItalic.otf */; };
-		771FE5842127403DB8DD00FA /* Gotham-XLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5752ACB6563549CF86272653 /* Gotham-XLight.otf */; };
-		3231A7ED96B54E409928ECB8 /* Gotham-XLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E4B6DCD8777348D6B5F16068 /* Gotham-XLightItalic.otf */; };
-		9D04095A1F1745C592A73E0E /* D-DINCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AEF2DA8A51C4EE7A9AB6BC3 /* D-DINCondensed-Bold.ttf */; };
-		796A3B8CFB96424480C605FC /* Gotham-Pro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7326A27DA6EC4FBFBDC8AC86 /* Gotham-Pro-Medium.ttf */; };
-		BFB4B6B875E140A68B9990DF /* Gotham-Pro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FCDBC34FB5D4CF98C8F267F /* Gotham-Pro-Regular.ttf */; };
-		01FDAA15A10D4E1D894A6F50 /* GothamBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13ED95C68CBC436E887F48BC /* GothamBold.ttf */; };
-		6B1EBB4E47B94AF793EEA0DA /* GothamBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7514F4D47AB643529284FAEE /* GothamBoldItalic.ttf */; };
-		27917B78E4BC404A96909729 /* GothamBook.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B592348F7E9A4229A974E709 /* GothamBook.ttf */; };
-		75287E85637D4F4D8379AAD0 /* GothamBookItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 224334376D434F74AE305079 /* GothamBookItalic.ttf */; };
-		CEABC2A59A3C43129493DABD /* GothamLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFE520862B1C44509D980294 /* GothamLight.ttf */; };
-		EDFB86E8F7AE41A68EB819B5 /* GothamLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70244D195F044C1DA25C7287 /* GothamLightItalic.ttf */; };
-		9602A8E8A6C744D6A9EABCD6 /* GothamMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F24281E3B55F49F3A93CF103 /* GothamMedium.ttf */; };
-		880A52E23FE64D07B916FB94 /* GothamMediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F8BC634820D4A35826DB66F /* GothamMediumItalic.ttf */; };
-		5A643BF7C0E0484AA96B9E82 /* GothamMedium_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B3B915637AC42F68F5BF568 /* GothamMedium_1.ttf */; };
+		9651275C3D274B6090A6FBE7 /* GothamBook.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3C9E2CA396B4864B74B4C12 /* GothamBook.ttf */; };
+		98A27B3A6F704E838BCED1D2 /* Gotham-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = B0988ADE16A1406F82680436 /* Gotham-Thin.otf */; };
+		9C7AD3CBF89B4B06A8DB0D0F /* Gotham-XLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3638D0A89EC1479FADEF2D38 /* Gotham-XLight.otf */; };
+		B95F22E0EF02445FBC6E5966 /* Gotham-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECF5B6A2EA2A4111A9347508 /* Gotham-Black.otf */; };
+		C38AF9FCCCC945FB91EF4852 /* Gotham-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 162F51C97AF84F5CBB178470 /* Gotham-ThinItalic.otf */; };
+		C8CA9134F4C340F8B52BC624 /* D-DINCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A4604E1ADB747D8A15C794A /* D-DINCondensed-Bold.ttf */; };
+		C915A805589F485CAE889BDC /* GothamBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D66A844A523440A1B798A938 /* GothamBoldItalic.ttf */; };
+		DC316C2E8CD345B9B2740225 /* Gotham-Pro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC5D1BD195834352BD00A7B0 /* Gotham-Pro-Regular.ttf */; };
+		E3C9997630A9481CA4960025 /* Gotham-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EA5C6156CAC24CD9819C8B15 /* Gotham-Bold.otf */; };
+		E3DBC87250AB4EEC94A8142B /* Gotham-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = C8AB8346DC1942E893328BA2 /* Gotham-Light.otf */; };
+		EF1C10E8BDA54B02B6AF75DF /* GothamBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6A4A0E287664E208220A78B /* GothamBold.ttf */; };
+		F08403E2FA304B8495FEF71D /* Gotham-XLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2B4262A923DA4D21B9BF180C /* Gotham-XLightItalic.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,49 +43,49 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = Caren;
+			remoteInfo = caren;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* CarenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* carenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* CarenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarenTests.m; sourceTree = "<group>"; };
-		0498455E734D3747245778D5 /* libPods-Caren-CarenTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Caren-CarenTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0568B16F56FF0D8E565D2D67 /* Pods-Caren.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caren.debug.xcconfig"; path = "Target Support Files/Pods-Caren/Pods-Caren.debug.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Caren.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caren.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Caren/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Caren/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Caren/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Caren/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Caren/main.m; sourceTree = "<group>"; };
-		20E249419A6DDABEA25BDB0C /* Pods-Caren-CarenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caren-CarenTests.release.xcconfig"; path = "Target Support Files/Pods-Caren-CarenTests/Pods-Caren-CarenTests.release.xcconfig"; sourceTree = "<group>"; };
-		65C7FB4A864563EE07502B48 /* Pods-Caren-CarenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caren-CarenTests.debug.xcconfig"; path = "Target Support Files/Pods-Caren-CarenTests/Pods-Caren-CarenTests.debug.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Caren/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DE2361E9640B0CB960FC4299 /* libPods-Caren.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Caren.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F21AD99517003FC87E /* carenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = carenTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* caren.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = caren.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = caren/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = caren/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = caren/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = caren/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = caren/main.m; sourceTree = "<group>"; };
+		162F51C97AF84F5CBB178470 /* Gotham-ThinItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Gotham-ThinItalic.otf"; path = "../assets/fonts/Gotham-ThinItalic.otf"; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-caren-carenTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-caren-carenTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4262A923DA4D21B9BF180C /* Gotham-XLightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Gotham-XLightItalic.otf"; path = "../assets/fonts/Gotham-XLightItalic.otf"; sourceTree = "<group>"; };
+		3638D0A89EC1479FADEF2D38 /* Gotham-XLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Gotham-XLight.otf"; path = "../assets/fonts/Gotham-XLight.otf"; sourceTree = "<group>"; };
+		3A8328BD6F8341EF9CCB29AB /* Gotham-BookItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Gotham-BookItalic.otf"; path = "../assets/fonts/Gotham-BookItalic.otf"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-caren.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-caren.debug.xcconfig"; path = "Target Support Files/Pods-caren/Pods-caren.debug.xcconfig"; sourceTree = "<group>"; };
+		3C8C0B5B8C344FACBB6557C2 /* GothamMedium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = GothamMedium.ttf; path = ../assets/fonts/GothamMedium.ttf; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-caren.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-caren.release.xcconfig"; path = "Target Support Files/Pods-caren/Pods-caren.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-caren-carenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-caren-carenTests.debug.xcconfig"; path = "Target Support Files/Pods-caren-carenTests/Pods-caren-carenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-caren.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-caren.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A4604E1ADB747D8A15C794A /* D-DINCondensed-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "D-DINCondensed-Bold.ttf"; path = "../assets/fonts/D-DINCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = caren/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-caren-carenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-caren-carenTests.release.xcconfig"; path = "Target Support Files/Pods-caren-carenTests/Pods-caren-carenTests.release.xcconfig"; sourceTree = "<group>"; };
+		949D3262297F4F0E96F4E58D /* GothamMediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = GothamMediumItalic.ttf; path = ../assets/fonts/GothamMediumItalic.ttf; sourceTree = "<group>"; };
+		A3C9E2CA396B4864B74B4C12 /* GothamBook.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = GothamBook.ttf; path = ../assets/fonts/GothamBook.ttf; sourceTree = "<group>"; };
+		B0988ADE16A1406F82680436 /* Gotham-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Gotham-Thin.otf"; path = "../assets/fonts/Gotham-Thin.otf"; sourceTree = "<group>"; };
+		C55AD864B7A7426B99B87732 /* GothamMedium_1.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = GothamMedium_1.ttf; path = ../assets/fonts/GothamMedium_1.ttf; sourceTree = "<group>"; };
+		C8AB8346DC1942E893328BA2 /* Gotham-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Gotham-Light.otf"; path = "../assets/fonts/Gotham-Light.otf"; sourceTree = "<group>"; };
+		CC5D1BD195834352BD00A7B0 /* Gotham-Pro-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Gotham-Pro-Regular.ttf"; path = "../assets/fonts/Gotham-Pro-Regular.ttf"; sourceTree = "<group>"; };
+		D65581D583AE48E090A29B77 /* GothamBookItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = GothamBookItalic.ttf; path = ../assets/fonts/GothamBookItalic.ttf; sourceTree = "<group>"; };
+		D66A844A523440A1B798A938 /* GothamBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = GothamBoldItalic.ttf; path = ../assets/fonts/GothamBoldItalic.ttf; sourceTree = "<group>"; };
+		EA5C6156CAC24CD9819C8B15 /* Gotham-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Gotham-Bold.otf"; path = "../assets/fonts/Gotham-Bold.otf"; sourceTree = "<group>"; };
+		ECF5B6A2EA2A4111A9347508 /* Gotham-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Gotham-Black.otf"; path = "../assets/fonts/Gotham-Black.otf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F625357655D83822C7E02AFD /* Pods-Caren.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caren.release.xcconfig"; path = "Target Support Files/Pods-Caren/Pods-Caren.release.xcconfig"; sourceTree = "<group>"; };
-		26A1535F07C64240B0C5A0C8 /* Gotham-Black.otf */ = {isa = PBXFileReference; name = "Gotham-Black.otf"; path = "../assets/fonts/Gotham-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9F4E54F61D944CD7BBB2D67F /* Gotham-Bold.otf */ = {isa = PBXFileReference; name = "Gotham-Bold.otf"; path = "../assets/fonts/Gotham-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4163EF6EE23045C1B6FA17CB /* Gotham-BookItalic.otf */ = {isa = PBXFileReference; name = "Gotham-BookItalic.otf"; path = "../assets/fonts/Gotham-BookItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5048B71A53764F8CA9625A16 /* Gotham-Light.otf */ = {isa = PBXFileReference; name = "Gotham-Light.otf"; path = "../assets/fonts/Gotham-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0E69801FF9CC4720BE45591C /* Gotham-Thin.otf */ = {isa = PBXFileReference; name = "Gotham-Thin.otf"; path = "../assets/fonts/Gotham-Thin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B98492364EF34A8BA32236E1 /* Gotham-ThinItalic.otf */ = {isa = PBXFileReference; name = "Gotham-ThinItalic.otf"; path = "../assets/fonts/Gotham-ThinItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		54E64C0EA75F4CFFB3314D99 /* Gotham-UltraItalic.otf */ = {isa = PBXFileReference; name = "Gotham-UltraItalic.otf"; path = "../assets/fonts/Gotham-UltraItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5752ACB6563549CF86272653 /* Gotham-XLight.otf */ = {isa = PBXFileReference; name = "Gotham-XLight.otf"; path = "../assets/fonts/Gotham-XLight.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E4B6DCD8777348D6B5F16068 /* Gotham-XLightItalic.otf */ = {isa = PBXFileReference; name = "Gotham-XLightItalic.otf"; path = "../assets/fonts/Gotham-XLightItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7AEF2DA8A51C4EE7A9AB6BC3 /* D-DINCondensed-Bold.ttf */ = {isa = PBXFileReference; name = "D-DINCondensed-Bold.ttf"; path = "../assets/fonts/D-DINCondensed-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7326A27DA6EC4FBFBDC8AC86 /* Gotham-Pro-Medium.ttf */ = {isa = PBXFileReference; name = "Gotham-Pro-Medium.ttf"; path = "../assets/fonts/Gotham-Pro-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0FCDBC34FB5D4CF98C8F267F /* Gotham-Pro-Regular.ttf */ = {isa = PBXFileReference; name = "Gotham-Pro-Regular.ttf"; path = "../assets/fonts/Gotham-Pro-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		13ED95C68CBC436E887F48BC /* GothamBold.ttf */ = {isa = PBXFileReference; name = "GothamBold.ttf"; path = "../assets/fonts/GothamBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7514F4D47AB643529284FAEE /* GothamBoldItalic.ttf */ = {isa = PBXFileReference; name = "GothamBoldItalic.ttf"; path = "../assets/fonts/GothamBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B592348F7E9A4229A974E709 /* GothamBook.ttf */ = {isa = PBXFileReference; name = "GothamBook.ttf"; path = "../assets/fonts/GothamBook.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		224334376D434F74AE305079 /* GothamBookItalic.ttf */ = {isa = PBXFileReference; name = "GothamBookItalic.ttf"; path = "../assets/fonts/GothamBookItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BFE520862B1C44509D980294 /* GothamLight.ttf */ = {isa = PBXFileReference; name = "GothamLight.ttf"; path = "../assets/fonts/GothamLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		70244D195F044C1DA25C7287 /* GothamLightItalic.ttf */ = {isa = PBXFileReference; name = "GothamLightItalic.ttf"; path = "../assets/fonts/GothamLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F24281E3B55F49F3A93CF103 /* GothamMedium.ttf */ = {isa = PBXFileReference; name = "GothamMedium.ttf"; path = "../assets/fonts/GothamMedium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5F8BC634820D4A35826DB66F /* GothamMediumItalic.ttf */ = {isa = PBXFileReference; name = "GothamMediumItalic.ttf"; path = "../assets/fonts/GothamMediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9B3B915637AC42F68F5BF568 /* GothamMedium_1.ttf */ = {isa = PBXFileReference; name = "GothamMedium_1.ttf"; path = "../assets/fonts/GothamMedium_1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F0978C2D07214BC4A0F154C5 /* GothamLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = GothamLight.ttf; path = ../assets/fonts/GothamLight.ttf; sourceTree = "<group>"; };
+		F5F5185BC1C3459A90164E55 /* Gotham-UltraItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Gotham-UltraItalic.otf"; path = "../assets/fonts/Gotham-UltraItalic.otf"; sourceTree = "<group>"; };
+		F635E827F7EC43F4BDAF3F63 /* Gotham-Pro-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Gotham-Pro-Medium.ttf"; path = "../assets/fonts/Gotham-Pro-Medium.ttf"; sourceTree = "<group>"; };
+		F6A4A0E287664E208220A78B /* GothamBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = GothamBold.ttf; path = ../assets/fonts/GothamBold.ttf; sourceTree = "<group>"; };
+		FD9FA9895E3A4AF6A197E469 /* GothamLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = GothamLightItalic.ttf; path = ../assets/fonts/GothamLightItalic.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49A406392020C671FCF7D7C8 /* libPods-Caren-CarenTests.a in Frameworks */,
+				7699B88040F8A987B510C191 /* libPods-caren-carenTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,20 +101,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4F70040386AD0E156AF6FA4 /* libPods-Caren.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* libPods-caren.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* CarenTests */ = {
+		00E356EF1AD99517003FC87E /* carenTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* CarenTests.m */,
+				00E356F21AD99517003FC87E /* carenTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = CarenTests;
+			path = carenTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -125,38 +125,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* Caren */ = {
+		13B07FAE1A68108700A75B9A /* caren */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
-				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = Caren;
+			name = caren;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				DE2361E9640B0CB960FC4299 /* libPods-Caren.a */,
-				0498455E734D3747245778D5 /* libPods-Caren-CarenTests.a */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-caren.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-caren-carenTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		43084988244A1F7B516A024A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0568B16F56FF0D8E565D2D67 /* Pods-Caren.debug.xcconfig */,
-				F625357655D83822C7E02AFD /* Pods-Caren.release.xcconfig */,
-				65C7FB4A864563EE07502B48 /* Pods-Caren-CarenTests.debug.xcconfig */,
-				20E249419A6DDABEA25BDB0C /* Pods-Caren-CarenTests.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -169,13 +158,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* Caren */,
+				13B07FAE1A68108700A75B9A /* caren */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* CarenTests */,
+				00E356EF1AD99517003FC87E /* carenTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				43084988244A1F7B516A024A /* Pods */,
-				4427920F71C448479F23C6C8 /* Resources */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				C1D3C6DC211F49BBAA21C343 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -185,85 +174,95 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Caren.app */,
-				00E356EE1AD99517003FC87E /* CarenTests.xctest */,
+				13B07F961A680F5B00A75B9A /* caren.app */,
+				00E356EE1AD99517003FC87E /* carenTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4427920F71C448479F23C6C8 /* Resources */ = {
-			isa = "PBXGroup";
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
 			children = (
-				26A1535F07C64240B0C5A0C8 /* Gotham-Black.otf */,
-				9F4E54F61D944CD7BBB2D67F /* Gotham-Bold.otf */,
-				4163EF6EE23045C1B6FA17CB /* Gotham-BookItalic.otf */,
-				5048B71A53764F8CA9625A16 /* Gotham-Light.otf */,
-				0E69801FF9CC4720BE45591C /* Gotham-Thin.otf */,
-				B98492364EF34A8BA32236E1 /* Gotham-ThinItalic.otf */,
-				54E64C0EA75F4CFFB3314D99 /* Gotham-UltraItalic.otf */,
-				5752ACB6563549CF86272653 /* Gotham-XLight.otf */,
-				E4B6DCD8777348D6B5F16068 /* Gotham-XLightItalic.otf */,
-				7AEF2DA8A51C4EE7A9AB6BC3 /* D-DINCondensed-Bold.ttf */,
-				7326A27DA6EC4FBFBDC8AC86 /* Gotham-Pro-Medium.ttf */,
-				0FCDBC34FB5D4CF98C8F267F /* Gotham-Pro-Regular.ttf */,
-				13ED95C68CBC436E887F48BC /* GothamBold.ttf */,
-				7514F4D47AB643529284FAEE /* GothamBoldItalic.ttf */,
-				B592348F7E9A4229A974E709 /* GothamBook.ttf */,
-				224334376D434F74AE305079 /* GothamBookItalic.ttf */,
-				BFE520862B1C44509D980294 /* GothamLight.ttf */,
-				70244D195F044C1DA25C7287 /* GothamLightItalic.ttf */,
-				F24281E3B55F49F3A93CF103 /* GothamMedium.ttf */,
-				5F8BC634820D4A35826DB66F /* GothamMediumItalic.ttf */,
-				9B3B915637AC42F68F5BF568 /* GothamMedium_1.ttf */,
+				3B4392A12AC88292D35C810B /* Pods-caren.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-caren.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-caren-carenTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-caren-carenTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C1D3C6DC211F49BBAA21C343 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ECF5B6A2EA2A4111A9347508 /* Gotham-Black.otf */,
+				EA5C6156CAC24CD9819C8B15 /* Gotham-Bold.otf */,
+				3A8328BD6F8341EF9CCB29AB /* Gotham-BookItalic.otf */,
+				C8AB8346DC1942E893328BA2 /* Gotham-Light.otf */,
+				B0988ADE16A1406F82680436 /* Gotham-Thin.otf */,
+				162F51C97AF84F5CBB178470 /* Gotham-ThinItalic.otf */,
+				F5F5185BC1C3459A90164E55 /* Gotham-UltraItalic.otf */,
+				3638D0A89EC1479FADEF2D38 /* Gotham-XLight.otf */,
+				2B4262A923DA4D21B9BF180C /* Gotham-XLightItalic.otf */,
+				6A4604E1ADB747D8A15C794A /* D-DINCondensed-Bold.ttf */,
+				F635E827F7EC43F4BDAF3F63 /* Gotham-Pro-Medium.ttf */,
+				CC5D1BD195834352BD00A7B0 /* Gotham-Pro-Regular.ttf */,
+				F6A4A0E287664E208220A78B /* GothamBold.ttf */,
+				D66A844A523440A1B798A938 /* GothamBoldItalic.ttf */,
+				A3C9E2CA396B4864B74B4C12 /* GothamBook.ttf */,
+				D65581D583AE48E090A29B77 /* GothamBookItalic.ttf */,
+				F0978C2D07214BC4A0F154C5 /* GothamLight.ttf */,
+				FD9FA9895E3A4AF6A197E469 /* GothamLightItalic.ttf */,
+				3C8C0B5B8C344FACBB6557C2 /* GothamMedium.ttf */,
+				949D3262297F4F0E96F4E58D /* GothamMediumItalic.ttf */,
+				C55AD864B7A7426B99B87732 /* GothamMedium_1.ttf */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
 			path = "";
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* CarenTests */ = {
+		00E356ED1AD99517003FC87E /* carenTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CarenTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "carenTests" */;
 			buildPhases = (
-				1F95DD5F4CC1D62AEBB2C56C /* [CP] Check Pods Manifest.lock */,
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				5721D52E9A0ABFE57331F937 /* [CP] Embed Pods Frameworks */,
-				DACFD71B17DB565450F08591 /* [CP] Copy Pods Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = CarenTests;
-			productName = CarenTests;
-			productReference = 00E356EE1AD99517003FC87E /* CarenTests.xctest */;
+			name = carenTests;
+			productName = carenTests;
+			productReference = 00E356EE1AD99517003FC87E /* carenTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* Caren */ = {
+		13B07F861A680F5B00A75B9A /* caren */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Caren" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "caren" */;
 			buildPhases = (
-				E3DC8765172572DC4AF6282C /* [CP] Check Pods Manifest.lock */,
-				FD10A7F022414F080027D42C /* Start Packager */,
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				E88415653CEBB52F25B61CF7 /* [CP] Embed Pods Frameworks */,
-				B25B62C8678831512AA43340 /* [CP] Copy Pods Resources */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Caren;
-			productName = Caren;
-			productReference = 13B07F961A680F5B00A75B9A /* Caren.app */;
+			name = caren;
+			productName = caren;
+			productReference = 13B07F961A680F5B00A75B9A /* caren.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -283,7 +282,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Caren" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "caren" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -296,8 +295,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Caren */,
-				00E356ED1AD99517003FC87E /* CarenTests */,
+				13B07F861A680F5B00A75B9A /* caren */,
+				00E356ED1AD99517003FC87E /* carenTests */,
 			);
 		};
 /* End PBXProject section */
@@ -316,27 +315,27 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				499D221A07A44A57B33A1486 /* Gotham-Black.otf in Resources */,
-				04409CE4ABD447D9AD9C4F0E /* Gotham-Bold.otf in Resources */,
-				74C24AA91A3A429A9903E07A /* Gotham-BookItalic.otf in Resources */,
-				61EBBFE1892441B4A3187B9D /* Gotham-Light.otf in Resources */,
-				46658EEB0A4444729F41AD54 /* Gotham-Thin.otf in Resources */,
-				1FF6F92B081A49A3B37E07F8 /* Gotham-ThinItalic.otf in Resources */,
-				4239827B4D9C40479F8F37B3 /* Gotham-UltraItalic.otf in Resources */,
-				771FE5842127403DB8DD00FA /* Gotham-XLight.otf in Resources */,
-				3231A7ED96B54E409928ECB8 /* Gotham-XLightItalic.otf in Resources */,
-				9D04095A1F1745C592A73E0E /* D-DINCondensed-Bold.ttf in Resources */,
-				796A3B8CFB96424480C605FC /* Gotham-Pro-Medium.ttf in Resources */,
-				BFB4B6B875E140A68B9990DF /* Gotham-Pro-Regular.ttf in Resources */,
-				01FDAA15A10D4E1D894A6F50 /* GothamBold.ttf in Resources */,
-				6B1EBB4E47B94AF793EEA0DA /* GothamBoldItalic.ttf in Resources */,
-				27917B78E4BC404A96909729 /* GothamBook.ttf in Resources */,
-				75287E85637D4F4D8379AAD0 /* GothamBookItalic.ttf in Resources */,
-				CEABC2A59A3C43129493DABD /* GothamLight.ttf in Resources */,
-				EDFB86E8F7AE41A68EB819B5 /* GothamLightItalic.ttf in Resources */,
-				9602A8E8A6C744D6A9EABCD6 /* GothamMedium.ttf in Resources */,
-				880A52E23FE64D07B916FB94 /* GothamMediumItalic.ttf in Resources */,
-				5A643BF7C0E0484AA96B9E82 /* GothamMedium_1.ttf in Resources */,
+				B95F22E0EF02445FBC6E5966 /* Gotham-Black.otf in Resources */,
+				E3C9997630A9481CA4960025 /* Gotham-Bold.otf in Resources */,
+				44F7DA3ABBC0433CA8A7754B /* Gotham-BookItalic.otf in Resources */,
+				E3DBC87250AB4EEC94A8142B /* Gotham-Light.otf in Resources */,
+				98A27B3A6F704E838BCED1D2 /* Gotham-Thin.otf in Resources */,
+				C38AF9FCCCC945FB91EF4852 /* Gotham-ThinItalic.otf in Resources */,
+				2EFEB51E902F4297BA642B85 /* Gotham-UltraItalic.otf in Resources */,
+				9C7AD3CBF89B4B06A8DB0D0F /* Gotham-XLight.otf in Resources */,
+				F08403E2FA304B8495FEF71D /* Gotham-XLightItalic.otf in Resources */,
+				C8CA9134F4C340F8B52BC624 /* D-DINCondensed-Bold.ttf in Resources */,
+				542CC84BD6444811BAFD4C91 /* Gotham-Pro-Medium.ttf in Resources */,
+				DC316C2E8CD345B9B2740225 /* Gotham-Pro-Regular.ttf in Resources */,
+				EF1C10E8BDA54B02B6AF75DF /* GothamBold.ttf in Resources */,
+				C915A805589F485CAE889BDC /* GothamBoldItalic.ttf in Resources */,
+				9651275C3D274B6090A6FBE7 /* GothamBook.ttf in Resources */,
+				719EEB89424D440C9EF0BBD3 /* GothamBookItalic.ttf in Resources */,
+				57C36F49945D47D780DB4A62 /* GothamLight.ttf in Resources */,
+				4D0CDA76EAC942CABAFC47A5 /* GothamLightItalic.ttf in Resources */,
+				783493A5D2E94858A036F88A /* GothamMedium.ttf in Resources */,
+				2AFE77C0AAF640FCBB8C4215 /* GothamMediumItalic.ttf in Resources */,
+				78E69DE31DBD41D093FEADC0 /* GothamMedium_1.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,15 +348,34 @@
 			files = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
 			);
 			name = "Bundle React Native code and images";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		1F95DD5F4CC1D62AEBB2C56C /* [CP] Check Pods Manifest.lock */ = {
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-caren/Pods-caren-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-caren/Pods-caren-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-caren/Pods-caren-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -372,65 +390,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Caren-CarenTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-caren-carenTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5721D52E9A0ABFE57331F937 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Caren-CarenTests/Pods-Caren-CarenTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Caren-CarenTests/Pods-Caren-CarenTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Caren-CarenTests/Pods-Caren-CarenTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B25B62C8678831512AA43340 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Caren/Pods-Caren-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Caren/Pods-Caren-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Caren/Pods-Caren-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DACFD71B17DB565450F08591 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Caren-CarenTests/Pods-Caren-CarenTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Caren-CarenTests/Pods-Caren-CarenTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Caren-CarenTests/Pods-Caren-CarenTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E3DC8765172572DC4AF6282C /* [CP] Check Pods Manifest.lock */ = {
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -445,47 +412,62 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Caren-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-caren-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E88415653CEBB52F25B61CF7 /* [CP] Embed Pods Frameworks */ = {
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Caren/Pods-Caren-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-caren-carenTests/Pods-caren-carenTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Caren/Pods-Caren-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-caren-carenTests/Pods-caren-carenTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Caren/Pods-Caren-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-caren-carenTests/Pods-caren-carenTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FD10A7F022414F080027D42C /* Start Packager */ = {
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-caren/Pods-caren-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
-			name = "Start Packager";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-caren/Pods-caren-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-caren/Pods-caren-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-caren-carenTests/Pods-caren-carenTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-caren-carenTests/Pods-caren-carenTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-caren-carenTests/Pods-caren-carenTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -495,7 +477,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* CarenTests.m in Sources */,
+				00E356F31AD99517003FC87E /* carenTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,7 +485,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,7 +495,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* Caren */;
+			target = 13B07F861A680F5B00A75B9A /* caren */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -521,15 +503,15 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65C7FB4A864563EE07502B48 /* Pods-Caren-CarenTests.debug.xcconfig */;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-caren-carenTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = CarenTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				INFOPLIST_FILE = carenTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -542,18 +524,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caren.app/Caren";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/caren.app/caren";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20E249419A6DDABEA25BDB0C /* Pods-Caren-CarenTests.release.xcconfig */;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-caren-carenTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = CarenTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				INFOPLIST_FILE = carenTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -566,31 +548,31 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caren.app/Caren";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/caren.app/caren";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0568B16F56FF0D8E565D2D67 /* Pods-Caren.debug.xcconfig */;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-caren.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 333GFX4GZW;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Caren/Info.plist;
+				INFOPLIST_FILE = caren/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Caren;
+				PRODUCT_NAME = caren;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -599,24 +581,24 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F625357655D83822C7E02AFD /* Pods-Caren.release.xcconfig */;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-caren.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 333GFX4GZW;
-				INFOPLIST_FILE = Caren/Info.plist;
+				INFOPLIST_FILE = caren/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Caren;
+				PRODUCT_NAME = caren;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -627,7 +609,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -655,7 +637,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -671,7 +653,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -683,7 +665,21 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -692,7 +688,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -720,7 +716,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -729,7 +725,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -740,7 +736,21 @@
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -748,7 +758,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CarenTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "carenTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -757,7 +767,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Caren" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "caren" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -766,7 +776,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Caren" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "caren" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

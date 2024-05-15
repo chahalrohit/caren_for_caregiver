@@ -1,34 +1,34 @@
-import React, { memo } from "react";
-import { View, TouchableOpacity, Platform, Image } from "react-native";
+import React, {memo} from 'react';
+import {View, TouchableOpacity, Platform, Image} from 'react-native';
 import {
   TopNavigation,
   StyleService,
   useStyleSheet,
   Modal,
-} from "@ui-kitten/components";
-import { NavigationProp, useNavigation } from "@react-navigation/native";
-import useLayout from "hooks/useLayout";
-import { useTranslation } from "react-i18next";
+} from '@ui-kitten/components';
+import {NavigationProp, useNavigation} from '@react-navigation/native';
+import useLayout from 'hooks/useLayout';
+import {useTranslation} from 'react-i18next';
 
-import Container from "components/Container";
-import NavigationAction from "components/NavigationAction";
-import TabBar from "../../../components/BasicTabBar";
-import MapView, { Marker, PROVIDER_GOOGLE } from "react-native-maps";
-import { Images } from "assets/images";
-import { RECOMMEND_DATA } from "constants/Data";
-import Carousel from "react-native-snap-carousel";
-import JobItem from "../components/JobItem";
-import useModal from "hooks/useModal";
-import FilterRecommend from "../FilterRecommend";
-import { FindStackParamList } from "navigation/types";
-import ButtonFill from "components/ButtonFill";
-import Flex from "components/Flex";
+import Container from 'components/Container';
+import NavigationAction from 'components/NavigationAction';
+import TabBar from '../../../components/BasicTabBar';
+import MapView, {Marker, PROVIDER_GOOGLE} from 'react-native-maps';
+import {Images} from 'assets/images';
+import {RECOMMEND_DATA} from 'constants/Data';
+// import Carousel from "react-native-snap-carousel";
+import JobItem from '../components/JobItem';
+import useModal from 'hooks/useModal';
+import FilterRecommend from '../FilterRecommend';
+import {FindStackParamList} from 'navigation/types';
+import ButtonFill from 'components/ButtonFill';
+import Flex from 'components/Flex';
 
 const ViewOnMap = memo(() => {
-  const { navigate } = useNavigation<NavigationProp<FindStackParamList>>();
-  const { height, width } = useLayout();
+  const {navigate} = useNavigation<NavigationProp<FindStackParamList>>();
+  const {height, width} = useLayout();
   const styles = useStyleSheet(themedStyles);
-  const { t } = useTranslation(["find", "common"]);
+  const {t} = useTranslation(['find', 'common']);
 
   const [activeIndex, setActiveIndex] = React.useState(0);
   const initialRegion = {
@@ -40,25 +40,25 @@ const ViewOnMap = memo(() => {
   const [state, setState] = React.useState(initialRegion);
   const refMap = React.useRef<MapView | null>(null);
   const [mapIndex, setMapIndex] = React.useState(0);
-  const { modalRef, hide, show } = useModal();
+  const {modalRef, hide, show} = useModal();
   const _onPress = React.useCallback(() => {
     refMap?.current?.animateToRegion({
       ...initialRegion,
     });
   }, []);
 
-  const renderEventMap = React.useCallback(({ item }) => {
+  const renderEventMap = React.useCallback(({item}) => {
     return (
-      <TouchableOpacity onPress={() => _onEvent({ item })} activeOpacity={0.54}>
+      <TouchableOpacity onPress={() => _onEvent({item})} activeOpacity={0.54}>
         <JobItem item={item} />
       </TouchableOpacity>
     );
   }, []);
-  const _onEvent = React.useCallback(({ item }) => {
-    navigate("JobDetails", { name: item.name });
+  const _onEvent = React.useCallback(({item}) => {
+    navigate('JobDetails', {name: item.name});
   }, []);
   const RenderPin = React.useCallback(
-    ({ item }) => {
+    ({item}) => {
       return (
         <Marker
           onPress={() => {
@@ -71,27 +71,27 @@ const ViewOnMap = memo(() => {
               style={{
                 width: 48,
                 height: 48,
-                transform: [{ scale: mapIndex === item.id ? 1 : 0.85 }],
+                transform: [{scale: mapIndex === item.id ? 1 : 0.85}],
               }}
             />
           }
         />
       );
     },
-    [mapIndex]
+    [mapIndex],
   );
   return (
     <Container style={styles.container} level="2">
       <TopNavigation
         accessoryLeft={<NavigationAction icon="close" />}
-        title={t("viewOnMap").toString()}
+        title={t('viewOnMap').toString()}
         appearance="primary"
       />
       <TabBar
         style={styles.tabBar}
         activeIndex={activeIndex}
         onChange={setActiveIndex}
-        tabs={[t("recommended"), t("newJobs"), t("nearbyYou")]}
+        tabs={[t('recommended'), t('newJobs'), t('nearbyYou')]}
       />
       <View>
         <MapView
@@ -101,7 +101,7 @@ const ViewOnMap = memo(() => {
           showsUserLocation={false}
           showsMyLocationButton={false}
           showsScale
-          onUserLocationChange={(event) => {
+          onUserLocationChange={event => {
             console.log(event.nativeEvent.coordinate);
           }}
           style={[
@@ -109,15 +109,14 @@ const ViewOnMap = memo(() => {
             {
               width: width,
               height:
-                Platform.OS === "android"
+                Platform.OS === 'android'
                   ? 700 * (height / 812)
                   : 668 * (height / 812),
             },
-          ]}
-        >
+          ]}>
           <Marker
             image={Images.pinLocation}
-            coordinate={{ latitude: 37.785834, longitude: -122.406417 }}
+            coordinate={{latitude: 37.785834, longitude: -122.406417}}
           />
           {RECOMMEND_DATA.map((item, i) => {
             return <RenderPin key={i} item={item} />;
@@ -138,8 +137,8 @@ const ViewOnMap = memo(() => {
               onPress={show}
             />
           </Flex>
-          <Carousel
-            layout={"default"}
+          {/* <Carousel
+            layout={'default'}
             data={RECOMMEND_DATA}
             sliderWidth={width}
             itemWidth={327 * (width / 375)}
@@ -149,7 +148,7 @@ const ViewOnMap = memo(() => {
             inactiveSlideOpacity={1}
             loop
             scrollEventThrottle={16}
-            onSnapToItem={(index) => {
+            onSnapToItem={index => {
               setMapIndex(index);
               refMap?.current?.animateToRegion({
                 ...initialRegion,
@@ -157,10 +156,10 @@ const ViewOnMap = memo(() => {
                 longitude: RECOMMEND_DATA[index].mapLocation.longitude,
               });
             }}
-          />
+          /> */}
         </View>
       </View>
-      <Modal ref={modalRef} style={{ flex: 1, height: height }}>
+      <Modal ref={modalRef} style={{flex: 1, height: height}}>
         <FilterRecommend onHide={hide} />
       </Modal>
     </Container>
@@ -175,7 +174,7 @@ const themedStyles = StyleService.create({
     paddingBottom: 0,
   },
   contentJob: {
-    position: "absolute",
+    position: 'absolute',
     bottom: 0,
   },
   tabBar: {

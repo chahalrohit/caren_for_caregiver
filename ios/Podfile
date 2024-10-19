@@ -33,6 +33,7 @@ target 'caren' do
     react_native_post_install(
       installer,
       config[:reactNativePath],
+      :mac_catalyst_enabled => false,
       # :ccache_enabled => true
     )
   end

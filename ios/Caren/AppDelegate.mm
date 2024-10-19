@@ -16,7 +16,7 @@
 
 - (NSURL *)sourceURLForBridge:(RCTBridge *)bridge
 {
- return [self bundleURL];
+  return [self bundleURL];
 }
 
 - (NSURL *)bundleURL
